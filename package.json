@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/arlac77/model#readme",
   "dependencies": {
-    "registry-mixin": "^2.0.0"
+    "registry-mixin": "^2.1.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
