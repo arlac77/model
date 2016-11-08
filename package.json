@@ -1,15 +1,14 @@
 {
   "name": "model",
   "version": "0.0.0-semantic-release",
-  "description": "",
+  "description": "generic meta model",
   "keywords": [],
   "main": "lib/model.js",
   "scripts": {
     "cover": "npm run build && ./node_modules/istanbul/lib/cli.js cover --hook-run-in-context ./node_modules/mocha/bin/_mocha -- --R spec --U exports tests/*_test.js",
-    "doc": "jsdoc lib/*.js",
     "test": "npm run build && mocha tests/*_test.js && markdown-doctest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "docs": "jsdoc2md -l off -t README.hbs -f {{module}} > README.md"
+    "docs": "jsdoc2md -l off -t doc/README.hbs -f lib/model.js > README.md"
   },
   "repository": {
     "type": "git",
@@ -31,16 +30,13 @@
     "jsdoc-to-markdown": "^2.0.1",
     "markdown-doctest": "^0.9.0"
   },
-  "contributors": [
-    {
-      "name": "Torsten Link",
-      "email": "torstenlink@gmx.de"
-    },
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
+  "contributors": [{
+    "name": "Torsten Link",
+    "email": "torstenlink@gmx.de"
+  }, {
+    "name": "Markus Felten",
+    "email": "markus.felten@gmx.de"
+  }],
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=6.9.1"
@@ -49,6 +45,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "module": "{{module}}"
+  }
 }
