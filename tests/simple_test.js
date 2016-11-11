@@ -1,6 +1,6 @@
 /* global describe, it, xit, before, after */
 /* jslint node: true, esnext: true */
-"use strict";
+'use strict';
 
 const chai = require('chai');
 const assert = chai.assert;
@@ -17,7 +17,6 @@ describe('model', () => {
       new model.Relation('e1_e2', m.entities.e1, m.entities.e2);
     }
   );
-
 
   it('has name', () => assert.equal(m.name, 'myModel'));
   it('has entity', () => assert.equal(m.entities.e1.name, 'e1'));
