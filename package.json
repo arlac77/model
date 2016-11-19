@@ -10,7 +10,7 @@
     "test": "npm run build && mocha tests/*_test.js && markdown-doctest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/Model.js > README.md",
-    "build": "./node_modules/rollup/bin/rollup --format=cjs --output=dist/Model.js -- src/Model.js"
+    "build": "./node_modules/rollup/bin/rollup --output=dist/Model.js -c -- src/Model.js"
   },
   "repository": {
     "type": "git",
@@ -31,12 +31,16 @@
     "rollup": "^0.36.3",
     "semantic-release": "^6.3.2",
     "jsdoc-to-markdown": "^2.0.1",
-    "markdown-doctest": "^0.9.0"
+    "markdown-doctest": "^0.9.0",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
   },
-  "contributors": [{
-    "name": "Markus Felten",
-    "email": "markus.felten@gmx.de"
-  }],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=6.9.1"
