@@ -7,7 +7,7 @@ const assert = chai.assert;
 const expect = chai.expect;
 const should = chai.should();
 
-const model = require('../lib/model.js');
+const model = require('../dist/model.js');
 
 describe('model', () => {
   const m = new model.Model('myModel');

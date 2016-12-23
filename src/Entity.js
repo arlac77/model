@@ -6,7 +6,7 @@ const rgm = require('registry-mixin');
 
 import Base from './Base';
 
-export class Entity extends Base {
+export default class Entity extends Base {
   constructor(name) {
     super(name);
 
