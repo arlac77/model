@@ -14,6 +14,14 @@
 [![downloads](http://img.shields.io/npm/dm/model.svg?style=flat-square)](https://npmjs.org/package/model)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+model
+===
+generic meta model
+
+# API Reference
+
+* * *
+
 With [npm](http://npmjs.org) do:
 
 ```shell
