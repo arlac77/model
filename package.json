@@ -2,7 +2,9 @@
   "name": "model",
   "version": "0.0.0-semantic-release",
   "description": "generic meta model",
-  "keywords": [],
+  "keywords": [
+    null
+  ],
   "main": "dist/Model.js",
   "module": "src/Model.js",
   "scripts": {
@@ -44,7 +46,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=7.10.0"
+    "node": ">=8.1.2"
   },
   "config": {
     "commitizen": {
