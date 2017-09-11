@@ -1,21 +1,14 @@
-/* global describe, it, xit, before, after */
-/* jslint node: true, esnext: true */
-'use strict';
+import test from 'ava';
 
-const chai = require('chai');
-const assert = chai.assert;
-const expect = chai.expect;
-const should = chai.should();
+import { Model, Entity, Relation } from '../src/model';
 
-const model = require('../dist/model.js');
+test('model', async t => {
+  const m = new Model('myModel');
+  await m.registerEntity(new Entity('e1'));
+  await m.registerEntity(new Entity('e2'));
 
-describe('model', () => {
-  const m = new model.Model('myModel');
-  m.registerEntity(new model.Entity('e1'));
-  m.registerEntity(new model.Entity('e2')).then(() => {
-    new model.Relation('e1_e2', m.entities.e1, m.entities.e2);
-  });
+  new Relation('e1_e2', m.entities.e1, m.entities.e2);
 
-  it('has name', () => assert.equal(m.name, 'myModel'));
-  it('has entity', () => assert.equal(m.entities.e1.name, 'e1'));
+  t.is(m.name, 'myModel');
+  t.is(m.entities.e1.name, 'e1');
 });

@@ -1,4 +1,4 @@
-const rgm = require('registry-mixin');
+import { defineRegistryProperties } from 'registry-mixin';
 
 import Base from './base';
 import Entity from './entity';
@@ -8,7 +8,7 @@ class Model extends Base {
   constructor(name) {
     super(name);
 
-    rgm.defineRegistryProperties(this, 'entity', {
+    defineRegistryProperties(this, 'entity', {
       pluralName: 'entities'
     });
   }

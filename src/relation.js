@@ -1,5 +1,3 @@
-const rgm = require('registry-mixin');
-
 import Base from './base';
 
 export default class Relation extends Base {
