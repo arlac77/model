@@ -1,11 +1,6 @@
-/* jslint node: true, esnext: true */
-
-'use strict';
-
 const rgm = require('registry-mixin');
 
-import Base from './Base';
-
+import Base from './base';
 
 export default class Relation extends Base {
   constructor(name, src, dst) {

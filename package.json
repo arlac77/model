@@ -3,8 +3,8 @@
   "version": "0.0.0-semantic-release",
   "description": "generic meta model",
   "keywords": [],
-  "main": "dist/Model.js",
-  "module": "src/Model.js",
+  "main": "dist/model.js",
+  "module": "src/model.js",
   "scripts": {
     "cover": "nyc npm test",
     "test": "mocha tests/*_test.js",
@@ -46,12 +46,8 @@
     "node": ">=8.4.0"
   },
   "nyc": {
-    "include": [
-      "dist/**/*.js"
-    ],
-    "reporter": [
-      "lcov"
-    ],
+    "include": ["dist/**/*.js"],
+    "reporter": ["lcov"],
     "report-dir": "./coverage"
   },
   "template": {

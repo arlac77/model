@@ -1,12 +1,8 @@
-/* jslint node: true, esnext: true */
-
-'use strict';
-
 const rgm = require('registry-mixin');
 
-import Base from './Base';
-import Entity from './Entity';
-import Relation from './Relation';
+import Base from './base';
+import Entity from './entity';
+import Relation from './relation';
 
 class Model extends Base {
   constructor(name) {
@@ -18,10 +14,4 @@ class Model extends Base {
   }
 }
 
-
-export {
-  Base,
-  Entity,
-  Relation,
-  Model
-};
+export { Base, Entity, Relation, Model };
