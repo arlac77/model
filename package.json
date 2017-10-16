@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/arlac77/model#readme",
   "dependencies": {
-    "registry-mixin": "2.1.14"
+    "registry-mixin": "2.1.15"
   },
   "devDependencies": {
     "rollup": "^0.50.0",
