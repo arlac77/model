@@ -27,7 +27,7 @@
     "registry-mixin": "2.1.15"
   },
   "devDependencies": {
-    "rollup": "^0.51.7",
+    "rollup": "^0.51.8",
     "semantic-release": "^9.1.1",
     "jsdoc-to-markdown": "^3.0.2",
     "markdown-doctest": "^0.9.1",
