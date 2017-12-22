@@ -20,9 +20,7 @@ model
 ===
 generic meta model
 
-# API Reference
-
-* * *
+# API
 
 With [npm](http://npmjs.org) do:
 
