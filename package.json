@@ -28,7 +28,7 @@
     "registry-mixin": "2.1.16"
   },
   "devDependencies": {
-    "rollup": "^0.56.5",
+    "rollup": "^0.57.0",
     "semantic-release": "^15.0.3",
     "markdown-doctest": "^0.9.1",
     "nyc": "^11.6.0",
