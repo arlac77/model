@@ -30,7 +30,7 @@
     "registry-mixin": "2.1.16"
   },
   "devDependencies": {
-    "rollup": "^0.67.1",
+    "rollup": "^0.67.3",
     "semantic-release": "^15.12.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.0-rc.2",
