@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "rollup": "^0.67.4",
-    "semantic-release": "^15.12.2",
+    "semantic-release": "^15.12.4",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.0-rc.2",
     "documentation": "^8.1.2",
