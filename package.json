@@ -22,7 +22,8 @@
     "lint": "documentation lint src/model.js",
     "posttest": "npm run prepare && markdown-doctest",
     "pretest": "rollup -c tests/rollup.config.js",
-    "test": "ava"
+    "test": "ava",
+    "prepare": "rollup -c"
   },
   "dependencies": {
     "registry-mixin": "3.0.0"
