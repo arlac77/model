@@ -22,21 +22,23 @@
     "lint": "documentation lint src/model.js",
     "posttest": "npm run prepare && markdown-doctest",
     "pretest": "rollup -c tests/rollup.config.js",
-    "test": "ava"
+    "test": "ava",
+    "prepare": "rollup -c"
   },
   "dependencies": {
     "registry-mixin": "3.0.0"
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "c8": "^7.0.0",
+    "builtin-modules": "^3.1.0",
+    "c8": "^7.0.1",
     "documentation": "^12.1.4",
     "esm": "^3.2.25",
     "markdown-doctest": "^1.0.0",
-    "rollup": "^1.25.0",
+    "rollup": "^1.29.0",
     "rollup-plugin-cleanup": "^3.1.1",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-executable": "^1.5.1",
+    "rollup-plugin-executable": "^1.5.2",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "semantic-release": "^16.0.1"
@@ -67,7 +69,7 @@
   },
   "template": {
     "repository": {
-      "url": "https://github.com/arlac77/npm-package-template-esm-only.git"
+      "url": "https://github.com/arlac77/npm-package-template.git"
     }
   }
 }
