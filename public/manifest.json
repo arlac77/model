@@ -1,0 +1,10 @@
+{
+  "name": "model",
+  "description": "generic meta model",
+  "icons": [
+    {
+      "src": "facicon.ico",
+      "sizes": "16x16"
+    }
+  ]
+}
