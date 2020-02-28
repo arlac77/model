@@ -25,7 +25,7 @@
     "test": "ava --node-arguments '--experimental-modules' --timeout 2m"
   },
   "dependencies": {
-    "registry-mixin": "3.0.1"
+    "registry-mixin": "3.0.2"
   },
   "devDependencies": {
     "ava": "^3.4.0",
