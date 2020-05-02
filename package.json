@@ -8,7 +8,8 @@
   "type": "module",
   "main": "src/model.js",
   "exports": {
-    ".": "./src/model.js"
+    ".": "./src/model.js",
+    "./": "./"
   },
   "description": "generic meta model",
   "contributors": [
