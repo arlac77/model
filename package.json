@@ -5,8 +5,6 @@
     "access": "public"
   },
   "sideEffects": false,
-  "type": "module",
-  "main": "./src/model.js",
   "exports": {
     ".": "./src/model.js"
   },
