@@ -25,7 +25,7 @@
     "lint:docs": "documentation lint ./src/model.js"
   },
   "dependencies": {
-    "registry-mixin": "3.0.6"
+    "registry-mixin": "3.0.7"
   },
   "devDependencies": {
     "ava": "^3.14.0",
